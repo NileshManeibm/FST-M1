@@ -2,14 +2,14 @@ package Activities;
 
 public class CustomException extends Exception{
 
-    private  String message ;
+    private String message = null;
 
-   /* public CustomException(String message1){
-    this.message1= message;
+    public CustomException(String message) {
+        this.message = message;
     }
 
     @Override
     public String getMessage() {
         return message;
-    }*/
+    }
 }
